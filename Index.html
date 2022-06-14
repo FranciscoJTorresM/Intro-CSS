@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=, initial-scale=1.0">
+    <!--Forma 3 correcta de usar css-->
     <link rel="stylesheet" href="Style.css">    
     <!-- Forma uno de usar CSS
         <style type="text/css">
@@ -18,18 +19,27 @@
 <body>
     <!-- Forma dos de usuar CSS
         <h1 style="color:blueviolet; font-style: italic;">Introducción a CSS</h1>-->
-    <h1 class="clase-li">Introducción a CSS</h1>    
+    <h1 class="clase-titulo clase-li" id="titulo-principal">Introducción a CSS</h1>    
     <h2 class="clase-p">Ejercicio para apreder</h2>
-    <p class="clase-p">Parrafo 1Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio dicta temporibus deserunt deleniti possimus rem! Deleniti saepe optio aperiam inventore qui sit et voluptate, maiores voluptatum! Quibusdam inventore dolor aut.</p>
-    <p class="clase-p" id="parrafo-2">Parrafo 2Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quaerat laborum reiciendis nesciunt nisi animi ad incidunt nostrum adipisci quod quia, facilis quae reprehenderit fuga? Doloremque molestiae minima obcaecati fuga cumque!</p>
-    <img id="Imagen1" src="https://www.mexicoenfotos.com/MX14130377498243.jpg" alt="Lagos de Moreno"/>
-    <div>
+    <p class="clase-p">
+        Parrafo 1Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio dicta temporibus deserunt deleniti possimus rem! Deleniti saepe optio aperiam inventore qui sit et voluptate, maiores voluptatum! Quibusdam inventore dolor aut.
+    </p>
+    <p class="clase-p" id="parrafo-2">
+        Parrafo 2Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quaerat laborum reiciendis nesciunt nisi animi ad incidunt nostrum adipisci quod quia, facilis quae reprehenderit fuga? Doloremque molestiae minima obcaecati fuga cumque!
+    </p>
+    <img id="Imagen1" src="https://www.mexicoenfotos.com/MX14130377498243.jpg" 
+        alt="Lagos de Moreno"
+    />
+    <div class="clase-div">
         <h3 id="lista-del-super">Lista de Super</h3>
-        <ul>
-            <li class="clase-li" id="elemento-1">Jamón</li>
+        <ul class="clase-ul">
+            <li class="clase-li clase-anidada" id="elemento-1">Jamón</li>
             <li class="clase-li-2">Queso</li>
             <li class="clase-li-2">Leche</li>
         </ul>
     </div>
+    <p class="clase-anidada">Hola hoy es lunes</p>
+    <p class="clase-anidada">Hola hoy es martes</p>
+    <p class="clase-anidada">Hola es es miercoles</p>
 </body>
 </html>

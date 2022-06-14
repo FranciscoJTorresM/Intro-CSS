@@ -7,11 +7,14 @@ p{
     font-size: 35px;
     background-color: white;
 }
+/*ID de titulo*/
+#titulo-principal {
+    color: yellowgreen
+}
 /*Este es un comentario*/
-/*Clases*/
+/*CLASES*/
 .clase-li{
-    color: hotpink;
-    font-size: 40px;
+    color: hotpink;   
 }
 .clase-li-2{
     font-size: 35px;
@@ -20,6 +23,11 @@ p{
 .clase-p{
     color: orangered;
 }
+.clase-titulo {
+    font-size: 100px;
+    color: orange;
+    background-color: rgb(25, 161, 252);
+  }
 /*ID'S*/
 #lista-del-super{
     background-color: blue;
@@ -35,5 +43,9 @@ p{
 }
 #Imagen1{
     width: 500px;
+}
+/*selectores avansados*/
+.clase-div .clase-ul .clase-anidada {
+    background-color: yellow;
 }
 
