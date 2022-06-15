@@ -1,0 +1,61 @@
+body {
+    color: blueviolet;
+    /*font-family: Arial, Helvetica, sans-serif;*/
+    font-family: 'Fascinate', cursive; /*Esta fuente viene de google*/
+  }
+  p {
+    /* important*/
+    color: blue;
+  }
+  h1 {
+    text-align: center;
+  }
+  a {
+    text-decoration: none;
+  }
+  
+  /*La clase es más específica que las etiquetas*/
+  .parrafos {
+    color: #1d2cd3;
+  }
+  /*El ID es más específico que las clases*/
+  #parrafo1 {
+    color: rgb(38, 170, 38);
+    height: 200px;
+    background: url("https://fondosmil.com/fondo/54336.png");
+  }
+  
+  p {
+    color: orange;
+  }
+
+  /*Pseudoclases y Pseudoelementos */
+
+  .mi-boton{
+    height: 90px;
+    width: 160px;    
+  }
+
+  .mi-boton:hover{
+    background-color: orange;
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+  }
+  .mi-boton:hover::before{
+    content: 'Haz Click';
+  }
+
+  .mi-input{
+    display: block;
+    margin-top: 20px;
+    width: 200px;
+    height: 60px;
+  }
+
+  .mi-input:focus
+  {
+    outline-color: red;
+    border-radius: 10px;
+    height: 40px;
+  }
